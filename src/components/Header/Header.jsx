@@ -2,11 +2,12 @@ import React from 'react';
 import "./Header.css";
 import Logo from "../../assets/logo.png"
 
+const mobile = window.innerWidth <= 768 ? true : false;
 export const Header = () => {
+  const [menuOpened, setMenuOpened] = useState(false);
   return (
     <div className='header'>
       <img className='logo' src={Logo}></img>
-
       {(menuOpened === false && mobile == true) ? (
         <div
           style={{
