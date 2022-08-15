@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Header.css";
 import Logo from "../../assets/logo.png"
+import Bars from "../../assets/bars.png"
+import { Link } from "react-scroll"
 
 const mobile = window.innerWidth <= 768 ? true : false;
 export const Header = () => {
@@ -68,14 +70,6 @@ export const Header = () => {
         </li>
       </ul>
       }
-      <img className='logo' src={Logo}></img>
-      <ul className='header-menu'>
-        <li>Home</li>
-        <li>Programs</li>
-        <li>Why us</li>
-        <li>Plans</li>
-        <li>Testimonials</li>
-      </ul>
     </div>
 
   )
