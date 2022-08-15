@@ -32,7 +32,7 @@ export const Header = () => {
           <Link
             onClick={() => setMenuOpened(false)}
             to='home'
-            span={true}
+            // span={true}/ 
             smooth={true}
           >Home</Link>
         </li>
@@ -40,7 +40,7 @@ export const Header = () => {
           <Link
             onClick={() => setMenuOpened(false)}
             to='programs'
-            span={true}
+            // span={true}/ 
             smooth={true}
           >Programs</Link>
         </li>
@@ -49,7 +49,7 @@ export const Header = () => {
           <Link
             onClick={() => setMenuOpened(false)}
             to='reasons'
-            span={true}
+            // span={true}/ 
             smooth={true}
           >Why us</Link>
         </li>
@@ -58,7 +58,7 @@ export const Header = () => {
           <Link
             onClick={() => setMenuOpened(false)}
             to='plans'
-            span={true}
+            // span={true}/ 
             smooth={true}
           >Plans</Link>
         </li>
@@ -66,7 +66,7 @@ export const Header = () => {
           <Link
             onClick={() => setMenuOpened(false)}
             to='testimonials'
-            span={true}
+            // span={true}/ 
             smooth={true}
           >Testimonials</Link>
         </li>
