@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./Header.css";
 import Logo from "../../assets/logo.png"
-import Bars from "../../assets/bars.png"
-import { Link } from "react-scroll"
 
-const mobile = window.innerWidth <= 768 ? true : false;
 export const Header = () => {
-  const [menuOpened, setMenuOpened] = useState(false);
   return (
     <div className='header'>
       <img className='logo' src={Logo}></img>
@@ -71,6 +67,7 @@ export const Header = () => {
       </ul>
       }
     </div>
+
 
   )
 }
